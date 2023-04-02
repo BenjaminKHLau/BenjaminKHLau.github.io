@@ -1,0 +1,24 @@
+#about{
+    display: flex;
+    height: 100vw;
+    width: 100vw;
+    border: 1px solid red;
+    margin: 10px;
+    /* cursor: pointer; */
+}
+#resume{
+    display: flex;
+    height: 100vw;
+    width: 100vw;
+    border: 1px solid green;
+    margin: 10px;
+    /* cursor: pointer; */
+}
+#skills{
+    display: flex;
+    height: 100vw;
+    width: 100vw;
+    border: 1px solid blue;
+    margin: 10px;
+    /* cursor: pointer; */
+}
