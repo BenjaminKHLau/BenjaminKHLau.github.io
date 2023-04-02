@@ -3,15 +3,19 @@
     height: 100vw;
     width: 100vw;
     border: 1px solid red;
-    margin: 10px;
+    margin-top: 54px;
     /* cursor: pointer; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    z-index: -1;
 }
 #resume{
     display: flex;
     height: 100vw;
     width: 100vw;
     border: 1px solid green;
-    margin: 10px;
+    /* margin: 10px; */
     /* cursor: pointer; */
 }
 #skills{
@@ -19,6 +23,11 @@
     height: 100vw;
     width: 100vw;
     border: 1px solid blue;
-    margin: 10px;
+    /* margin: 10px; */
     /* cursor: pointer; */
+}
+
+.about-img {
+    display: flex;
+    border-radius: 100%;
 }
