@@ -27,7 +27,29 @@
     /* cursor: pointer; */
 }
 
+.about {
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .about-img {
     display: flex;
     border-radius: 100%;
+}
+
+.about-desc {
+    display: flex;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-a {
+    display: flex;
+    align-self: flex-start;
+}
+
+.testimonials {
+    /* display: flex; */
+    margin: 10px;
 }
