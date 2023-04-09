@@ -1,21 +1,41 @@
 #about{
     display: flex;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
-    border: 1px solid red;
-    margin-top: 54px;
+    /* border: 1px solid red; */
+    /* margin-top: 54px; */
     /* cursor: pointer; */
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     z-index: -1;
+    padding-top: 54px;
+    background-image: url("../pics/header-background.png");
 }
+
+#about h1{
+    color:aliceblue;
+}
+#about h2{
+    color:aliceblue;
+}
+#about div{
+    color:aliceblue;
+}
+
+#testimonials {
+    /* display: flex; */
+    height: 30vh;
+    padding-top: 54px;
+}
+
 #resume{
     display: flex;
     height: 100vh;
     width: 100vw;
     border: 1px solid green;
     justify-content: center;
+    padding-top: 54px;
     /* margin: 10px; */
     /* cursor: pointer; */
 }
@@ -24,6 +44,7 @@
     height: 100vw;
     width: 100vw;
     border: 1px solid blue;
+    padding-top: 54px;
     /* margin: 10px; */
     /* cursor: pointer; */
 }
@@ -48,6 +69,15 @@
 .about-a {
     display: flex;
     align-self: flex-start;
+    margin-top: 15px;
+    margin-left: 8%;
+    font-weight: bold;
+}
+.about-b {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 10px;
+    font-weight: 400;
 }
 
 #testimonials > h2,h3 {

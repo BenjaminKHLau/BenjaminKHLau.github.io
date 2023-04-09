@@ -51,6 +51,17 @@ function Nav() {
           >
             About
           </Link>
+    
+          <Link
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="navigation"
+            activeClass="navigation-active"
+          >
+            Testimonials
+          </Link>
 
           <Link
             to="resume"
@@ -74,7 +85,7 @@ function Nav() {
             Skills
           </Link>
 
-          <Link
+          {/* <Link
             to="contact"
             spy={true}
             smooth={true}
@@ -83,7 +94,7 @@ function Nav() {
             activeClass="navigation-active"
           >
             Contact
-          </Link>
+          </Link> */}
         {/* </div>
       </div> */}
 
