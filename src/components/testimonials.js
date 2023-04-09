@@ -8,7 +8,7 @@ function Testimonials() {
     dots: true,
     infinite: true,
     centerMode: true,
-    centerPadding: "60px",
+    centerPadding: "50px",
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -17,22 +17,22 @@ function Testimonials() {
     // cssEase: "linear",
   };
   return (
-    <div className="testimonials">
+    <div id="testimonials">
       <h2>Testimonials</h2>
       <h3>This is what his peers had to say about him!</h3>
       <Slider {...settings}>
         {/* <div className="t-container"> */}
         <div>
           <div className="t-name">1 name</div>
-          <div className="t-t">1 t</div>
+          <div className="t-t">1 test</div>
         </div>
         <div>
           <div className="t-name">2 name</div>
-          <div className="t-t">2 t</div>
+          <div className="t-t">2 test</div>
         </div>
         <div>
           <div className="t-name">3 name</div>
-          <div className="t-t">3 t</div>
+          <div className="t-t">3 test</div>
         </div>
         {/* </div> */}
       </Slider>

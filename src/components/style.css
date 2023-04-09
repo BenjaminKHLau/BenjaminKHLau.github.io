@@ -12,9 +12,10 @@
 }
 #resume{
     display: flex;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     border: 1px solid green;
+    justify-content: center;
     /* margin: 10px; */
     /* cursor: pointer; */
 }
@@ -49,7 +50,23 @@
     align-self: flex-start;
 }
 
-.testimonials {
-    /* display: flex; */
-    margin: 10px;
+#testimonials > h2,h3 {
+    display: flex;
+    /* margin: 30%; */
+    justify-content: center;
+    
+}
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.t-name {
+    display: flex;
+    justify-content: center;
+}
+.t-t {
+    display: flex;
+    justify-content: center;
 }
