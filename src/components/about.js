@@ -14,7 +14,7 @@ function About() {
       <img className="about-img" src={kiwi} />
       <h2>Software Engineer & Animal Lover</h2>
       <div className="about-desc">
-        Benjamin is a Texas based Full Stack Software Engineer. Benjamin attended a rigorous coding bootcamp called App Academy. He has made many
+        Benjamin is a Texas based Full Stack Software Engineer. He graduated from a rigorous coding bootcamp that focuses on Full Stack Web Development called App Academy. He has made many
         friends and learned how to think like a programmer. He now views the
         world through a whole new lens!
       </div>

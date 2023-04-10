@@ -30,7 +30,7 @@ function Nav() {
       {/* <div className="dropdown">
         <div className="dropbtn" onClick={updateMenu}>Dropdown</div>
         <div className="dropdown-content"> */}
-          {/* <Link
+      {/* <Link
             to="/"
             spy={true}
             smooth={true}
@@ -41,51 +41,52 @@ function Nav() {
             Main
           </Link> */}
 
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="navigation"
-            activeClass="navigation-active"
-          >
-            About
-          </Link>
-    
-          <Link
-            to="testimonials"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="navigation"
-            activeClass="navigation-active"
-          >
-            Testimonials
-          </Link>
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="navigation"
+        activeClass="navigation-active"
+      >
+        About
+      </Link>
 
-          <Link
-            to="resume"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="navigation"
-            activeClass="navigation-active"
-          >
-            Resume
-          </Link>
+      <Link
+        to="testimonials"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="navigation"
+        activeClass="navigation-active"
+      >
+        Testimonials
+      </Link>
 
-          <Link
-            to="skills"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="navigation"
-            activeClass="navigation-active"
-          >
-            Skills
-          </Link>
+      <Link
+        to="skills"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="navigation"
+        activeClass="navigation-active"
+      >
+        Skills
+      </Link>
 
-          {/* <Link
+      <Link
+        to="resume"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="navigation"
+        activeClass="navigation-active"
+      >
+        Resume
+      </Link>
+
+
+      {/* <Link
             to="contact"
             spy={true}
             smooth={true}
@@ -95,7 +96,7 @@ function Nav() {
           >
             Contact
           </Link> */}
-        {/* </div>
+      {/* </div>
       </div> */}
 
       {/* <NavLink to="/">Main</NavLink>

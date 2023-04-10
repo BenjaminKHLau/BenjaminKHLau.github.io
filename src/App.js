@@ -25,14 +25,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Testimonials />} />
       </Routes>
+      
+      <Routes>
+        <Route path="/" element={<Skills />} />
+      </Routes>
 
       <Routes>
         <Route path="/" element={<Resume />} />
       </Routes>
 
-      <Routes>
-        <Route path="/" element={<Skills />} />
-      </Routes>
 
 
 
