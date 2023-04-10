@@ -25,7 +25,7 @@
 
 #testimonials {
     /* display: flex; */
-    height: 30vh;
+    /* height: 40vh; */
     padding-top: 54px;
 }
 
@@ -33,7 +33,7 @@
     display: flex;
     height: 100vh;
     width: 100vw;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     justify-content: center;
     padding-top: 54px;
     /* margin: 10px; */
@@ -92,11 +92,47 @@
 
 }
 
+.t-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.t-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.t-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 100%;
+}
 .t-name {
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .t-t {
     display: flex;
     justify-content: center;
+    font-style: italic;
+    flex-direction: column;
+}
+
+.t-space {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
 }
