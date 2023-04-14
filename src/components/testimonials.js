@@ -25,7 +25,7 @@ function Testimonials() {
       <Slider {...settings}>
         <div className="t-container">
           <div className="t-box">
-            <img src={ed} className="t-img" />
+            <img src={ed} className="t-img" alt=""/>
             <div className="t-name">Edward Felipe III</div>
             <div className="t-t">
               <div className="t-space">
@@ -65,7 +65,7 @@ function Testimonials() {
         </div>
         <div className="t-container">
           <div className="t-box">
-            <img src={matthew} className="t-img" />
+            <img src={matthew} className="t-img" alt=""/>
             <div className="t-name">Matthew Fong</div>
             <div className="t-t">
               Benjamin is an exceptional developer that possesses all the skills
@@ -85,7 +85,7 @@ function Testimonials() {
         </div>
         <div className="t-container">
           <div className="t-box">
-            <img src={tom} className="t-img" />
+            <img src={tom} className="t-img" alt="" />
             <div className="t-name">Tom Bluher</div>
             <div className="t-t">
               Working with Ben was a great experience that I won't soon forget.

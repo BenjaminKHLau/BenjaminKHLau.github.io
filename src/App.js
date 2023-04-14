@@ -7,6 +7,7 @@ import About from "./components/about";
 import Resume from "./components/resume";
 import Skills from "./components/skills";
 import Testimonials from "./components/testimonials";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Resume />} />
+      </Routes>
+
+      <Routes>
+        <Route path="/" element={<Footer />} />
       </Routes>
 
 

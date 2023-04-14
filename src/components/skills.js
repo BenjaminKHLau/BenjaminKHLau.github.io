@@ -16,35 +16,35 @@ function Skills() {
       </div>
       <div className="skills-container">
         <div className="skill-pic-name">
-          <img src={js} className="skill-pics" />
+          <img alt="" src={js} className="skill-pics" />
           <div className="skill-name">JavaScript</div>
         </div>
         <div className="skill-pic-name">
-          <img src={python} className="skill-pics" />
+          <img alt="" src={python} className="skill-pics" />
           <div className="skill-name">Python</div>
         </div>
         <div className="skill-pic-name">
-          <img src={react} className="skill-pics" />
+          <img alt="" src={react} className="skill-pics" />
           <div className="skill-name">React.js</div>
         </div>
         <div className="skill-pic-name">
-          <img src={redux} className="skill-pics" />
+          <img alt="" src={redux} className="skill-pics" />
           <div className="skill-name">Redux.js</div>
         </div>
         <div className="skill-pic-name">
-          <img src={htmllogo} className="skill-pics" />
+          <img alt="" src={htmllogo} className="skill-pics" />
           <div className="skill-name">HTML5</div>
         </div>
         <div className="skill-pic-name">
-          <img src={csslogo} className="skill-pics" />
+          <img alt="" src={csslogo} className="skill-pics" />
           <div className="skill-name">CSS3</div>
         </div>
         <div className="skill-pic-name">
-          <img src={flask} className="skill-pics" />
+          <img alt="" src={flask} className="skill-pics" />
           <div className="skill-name">Flask</div>
         </div>
         <div className="skill-pic-name">
-          <img src={sqla} className="skill-pics" />
+          <img alt="" src={sqla} className="skill-pics" />
           <div className="skill-name">SQLAlchemy</div>
         </div>
       </div>

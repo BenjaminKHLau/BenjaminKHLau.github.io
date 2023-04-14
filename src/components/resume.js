@@ -1,5 +1,5 @@
 import resume from "../pics/01BenjaminLauResumeREAL.pdf"
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 function Resume(){
 
