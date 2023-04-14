@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea1cf845.css",
-    "main.js": "/static/js/main.29a383f7.js",
+    "main.css": "/static/css/main.02be442b.css",
+    "main.js": "/static/js/main.e8a363a5.js",
     "static/js/787.56d62cc4.chunk.js": "/static/js/787.56d62cc4.chunk.js",
-    "pdf.worker.js": "/5fe766eba96bfe6f8634704ca3888f1c.js",
+    "static/media/github.png": "/static/media/github.ab226c07aa96eb5e7150.png",
     "static/media/header-background.png": "/static/media/header-background.3e1fdee3162602966ef5.png",
     "static/media/edwardfelipe.jpg": "/static/media/edwardfelipe.9b512d006023fcc0e963.jpg",
     "static/media/01BenjaminLauResumeREAL.pdf": "/static/media/01BenjaminLauResumeREAL.04382010d110e55d9f0d.pdf",
@@ -23,12 +23,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ea1cf845.css.map": "/static/css/main.ea1cf845.css.map",
-    "main.29a383f7.js.map": "/static/js/main.29a383f7.js.map",
+    "main.02be442b.css.map": "/static/css/main.02be442b.css.map",
+    "main.e8a363a5.js.map": "/static/js/main.e8a363a5.js.map",
     "787.56d62cc4.chunk.js.map": "/static/js/787.56d62cc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea1cf845.css",
-    "static/js/main.29a383f7.js"
+    "static/css/main.02be442b.css",
+    "static/js/main.e8a363a5.js"
   ]
 }
