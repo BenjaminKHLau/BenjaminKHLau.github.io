@@ -6,11 +6,16 @@
     /* margin-top: 54px; */
     /* cursor: pointer; */
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     z-index: -1;
-    padding-top: 54px;
+    /* padding-top: 54px; */
     background-image: url("../pics/header-background.png");
+}
+
+.wip {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #about h1{
@@ -21,6 +26,24 @@
 }
 #about div{
     color:aliceblue;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(69, 68, 161, 0.342);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 35px;
 }
 
 #testimonials {
@@ -118,15 +141,15 @@
 .about-desc {
     display: flex;
     font-style: italic;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .about-a {
     display: flex;
     align-self: flex-start;
     margin-top: 15px;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-weight: bold;
 }
 .about-b {
