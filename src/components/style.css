@@ -1,3 +1,7 @@
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    
+
 #about{
     display: flex;
     height: 100vh;
@@ -217,3 +221,229 @@
     margin-bottom: 7.5px;
 }
 
+}
+
+/*  iPhone Screen  */
+@media screen and (min-width: 375px) {
+    
+
+#about{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    /* margin-top: 54px; */
+    /* cursor: pointer; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    /* padding-top: 54px; */
+    background-image: url("../pics/header-background.png");
+}
+
+.wip {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#about h1{
+    color:aliceblue;
+}
+#about h2{
+    color:aliceblue;
+}
+#about div{
+    color:aliceblue;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(69, 68, 161, 0.342);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 35px;
+}
+
+#testimonials {
+    /* display: flex; */
+    /* height: 40vh; */
+    padding-top: 54px;
+}
+
+#resume{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid green; */
+    justify-content: center;
+    padding-top: 54px;
+    /* margin: 10px; */
+    /* cursor: pointer; */
+}
+#skills{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid blue; */
+    padding-top: 54px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    /* margin: 10px; */
+    /* cursor: pointer; */
+}
+
+.skills-header {
+    display: flex;
+    font-size: 24pt;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    /* flex-direction: column; */
+    
+}
+
+.skill-pic-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16pt;
+    /* border: 1px solid green; */
+    margin: 50px;
+    background-color: white;
+    box-shadow: 0 0 0 5;
+    /* gap: 50px; */
+    transition-duration: 200ms;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.skill-pic-name:hover {
+    transition-duration: 200ms;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 0 5px black;
+}
+
+.skill-pics {
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+    border-radius: 100%;
+    background-color: white;
+    /* overflow-wrap: break-word; */
+}
+
+.skill-name {
+    margin-top: 25px;
+}
+
+.about {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    display: flex;
+    border-radius: 100%;
+}
+
+.about-desc {
+    display: flex;
+    font-style: italic;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.about-a {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 15px;
+    /* margin-left: 8%; */
+    font-weight: bold;
+}
+.about-b {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+#testimonials > h2,h3 {
+    display: flex;
+    /* margin: 30%; */
+    justify-content: center;
+    z-index: -100;
+}
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.t-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.t-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.t-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 100%;
+    z-index: -100;
+}
+.t-name {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.t-t {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    flex-direction: column;
+}
+
+.t-space {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+}
