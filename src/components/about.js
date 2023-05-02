@@ -8,7 +8,7 @@ function About() {
       <h1 className="wip">
         Hello! I am currently refactoring my portfolio from scratch! I believe
         that this is a good opportunity to sharpen my skills and rely less on
-        premade templates! Thank you for your patience. Last updated April 14,
+        premade templates! Thank you for your patience. Last updated May 1,
         2023
       </h1>
         <div className="about-img-container">
