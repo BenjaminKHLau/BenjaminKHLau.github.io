@@ -5,12 +5,12 @@ function About() {
     <div id="about">
 
       <div className="about-container">
-      <h1 className="wip">
+      {/* <h1 className="wip">
         Hello! I am currently refactoring my portfolio from scratch! I believe
         that this is a good opportunity to sharpen my skills and rely less on
         premade templates! Thank you for your patience. Last updated May 1,
         2023
-      </h1>
+      </h1> */}
         <div className="about-img-container">
           <img className="about-img" src={kiwi} />
           <div className="about-inner">
